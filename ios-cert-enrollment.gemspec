@@ -1,6 +1,4 @@
 # Ensure we require the local version and not one we might have installed already
-puts __FILE__
-puts 'llasa'
 require File.join([File.dirname(__FILE__),'lib','ios-cert-enrollment.rb'])
 spec = Gem::Specification.new do |s| 
   s.name = 'ios-cert-enrollment'
