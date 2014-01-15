@@ -1,5 +1,5 @@
 # Ensure we require the local version and not one we might have installed already
-require File.join([File.dirname(__FILE__),'lib','ios-cert-enrollment.rb'])
+require_relative File.join([File.dirname(__FILE__),'lib','ios-cert-enrollment.rb'])
 spec = Gem::Specification.new do |s| 
   s.name = 'ios-cert-enrollment'
   s.version = "0.0.8"
